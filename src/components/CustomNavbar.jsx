@@ -1,0 +1,34 @@
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-scroll";
+
+function CustomNavbar() {
+  return (
+    <Navbar expand="lg" bg="light" fixed="top">
+      <Container>
+        <Navbar.Brand href="#">CHUAN</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link as={Link} to="hero" smooth duration={500}>
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="about" smooth duration={500}>
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} to="services" smooth duration={500}>
+              Services
+            </Nav.Link>
+            <Nav.Link as={Link} to="portfolio" smooth duration={500}>
+              Portfolio
+            </Nav.Link>
+            <Nav.Link as={Link} to="contact" smooth duration={500}>
+              Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default CustomNavbar;
