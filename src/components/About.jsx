@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import profile from "../assets/Chuan.png"; 
+import profile from "../assets/Logo1.png";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
         <h2 className="text-center mb-4">About Me</h2>
         <Row className="align-items-center">
           <Col md={5}>
-            <Image src={profile} fluid className="w-50 h-50" />
+            <Image src={profile} fluid />
           </Col>
           <Col md={7}>
             <p>
@@ -18,8 +18,8 @@ function About() {
               technical expertise to deliver real results.
             </p>
             <p>
-              Tools I use: React, Python, Figma, Adobe Suite, SQL, Power BI,
-              and more.
+              Tools I use: React, Python, Figma, Adobe Suite, SQL, Power BI, and
+              more.
             </p>
             <a
               className="btn btn-outline-primary mt-2"

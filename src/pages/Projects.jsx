@@ -1,7 +1,9 @@
 import Navbar from "../components/CustomNavbar";
 import Footer from "../components/Footer";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import projectImg from "../assets/project1.jpg";
+import ecom from "../assets/Ecom.jpeg";
+import dashboard from "../assets/Dashboard.png";
+import portfolio from "../assets/Portfolio.jpeg";
 
 function Projects() {
   const projects = [
@@ -9,14 +11,14 @@ function Projects() {
       title: "Dashboard Project",
       description:
         "A powerful business dashboard built with Python, Pandas, and Power BI.",
-      image: projectImg,
+      image: ecom,
       link: "#",
     },
     {
       title: "Web Portfolio",
       description:
         "My own portfolio website built using React, Bootstrap, and CSS animations.",
-      image: projectImg,
+      image: dashboard,
       link: "#",
     },
   ];

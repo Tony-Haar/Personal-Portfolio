@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero" className="d-flex align-items-center vh-100 bg-light">
       <Container className="text-center">
         <h1>
-          Hello, I'm <span className="text-primary">Chuan Haar Ajach</span>
+          Hello, I'm <span className="text-primary">Chuan Haar</span>
         </h1>
         <h3>Web Developer & Data Analyst</h3>
         <p>Turning ideas into impactful digital experiences.</p>

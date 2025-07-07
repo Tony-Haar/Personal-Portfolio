@@ -1,11 +1,20 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 
+import logo from "../assets/Logo1.png";
+
 function CustomNavbar() {
   return (
     <Navbar expand="lg" bg="light" fixed="top">
       <Container>
-        <Navbar.Brand href="#">CHUAN</Navbar.Brand>
+        <Navbar.Brand href="#">
+          <img
+            src={logo}
+            alt="Logo"
+            height="60"
+            style={{ objectFit: "contain" }}
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
